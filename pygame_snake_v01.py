@@ -100,7 +100,7 @@ while True:
 	screen.fill((255,255,255)) 
 	time_passed = FPSCLOCK.tick(30)
 	#修改这个条件判断中的数值可以控制蛇移动的快慢/绘图的反应速度？
-	if times>200:
+	if times>100:
 		times = 0.0
 		s = move(s,d)
 	else:
