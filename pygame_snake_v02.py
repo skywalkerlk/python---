@@ -125,6 +125,7 @@ screen.fill((255,255,255))
 times = 0.0
 
 #游戏标志
+is_over = False
 
 #游戏初始界面文字：点击鼠标游戏开始
 welcome_font = pygame.font.SysFont("arial",64)
